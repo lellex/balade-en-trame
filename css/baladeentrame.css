@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'NexaRustScript';
+    src: url('../fonts/nexarustscriptl-0-webfont.eot');
+    src: url('../fonts/nexarustscriptl-0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nexarustscriptl-0-webfont.woff2') format('woff2'),
+         url('../fonts/nexarustscriptl-0-webfont.woff') format('woff'),
+         url('../fonts/nexarustscriptl-0-webfont.ttf') format('truetype'),
+         url('../fonts/nexarustscriptl-0-webfont.svg#nexa_rust_script_l0regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+	font-size: 150%;
+}
+
+h2 .accent {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+header {
+	background: #212b3d;
+	margin-bottom: 30px;
+}
+
+.logo {
+	width: 90px;
+}
+
+h1 img {
+	margin-right: 16px;
+}
+
+.liens div {
+	height: 130px;
+	line-height: 130px;
+	text-align: center;
+}
+
+.liens a {
+	margin: 0 auto;
+	clear: both;
+	overflow: hidden;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	border-radius: 100px;
+	text-align: center;
+	border: solid 5px #9ba0a7;
+	background-color: #fff;
+	transition: all .4s;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.liens a.active, .liens a:hover, .liens a:focus {
+	background-color: #EF3A3A;
+	border-color: #e87b7e;
+	width: 120px;
+	height: 120px;
+	line-height: 100px;
+}
+
+.liens a.profil {background-image: url('../img/profil.svg');}
+.liens a.technique {background-image: url('../img/technique.svg');}
+.liens a.archives {background-image: url('../img/archive.svg');}
+.liens a.paroles {background-image: url('../img/paroles.svg');}
+.liens a.active.profil {background-image: url('../img/profil-on.svg');}
+.liens a.active.technique {background-image: url('../img/technique-on.svg');}
+.liens a.active.archives {background-image: url('../img/archive-on.svg');}
+.liens a.active.paroles {background-image: url('../img/paroles-on.svg');}
+
+.infos span {
+	display: block;
+	margin: 10px 0;
+	padding-left: 34px;
+	padding-top: 10px;
+}
+
+.infos span:before {
+	margin-left: -34px;
+	content: '';
+	width: 30px;
+	height: 26px;
+	position: absolute;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.birthday:before {
+	background-image: url('../img/birthday.svg');
+}
+.marker:before {
+	background-image: url('../img/marker.svg');
+}
+.family:before {
+	background-image: url('../img/family.svg');
+}
+
+.pages > div {
+	display: none;
+	transition: all .4s;
+}
+
+#profil img {
+	padding-bottom: 20px;
+}
+
+.pages > div.active {
+	display: block;
+}
+
+.paroles p {
+	font-size: 24px;
+	margin: 24px 0;
+	font-style: italic;
+}
+
+.paroles h2 {
+	margin-top: 0;
+}
+
+.ourdissoir {
+	width: 900px;
+}
+
+.ourdissoir h3 {
+	font-family: inherit;
+}
+
+.ourdissoir img,
+.ourdissoir .points > div {
+	position: absolute;
+}
+
+.ourdissoir .points > div {
+	overflow: hidden;
+	display: block;
+	width: 260px;
+	height: 160px;
+	margin-left: -130px;
+}
+
+.ourdissoir .click {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	margin-left: 90px;
+	border-radius: 10px;
+	background: #EF3A3A;
+	border: solid 3px #e87b7e;
+	box-sizing: content-box;
+}
+
+.ourdissoir .text {
+	display: none;
+	position: absolute;
+	background: #EF3A3A;
+	padding: 10px;
+	border-radius: 10px;
+	top: 28px;
+	width: 260px;
+}
+
+.ourdissoir .text h3 {
+	font-size: 24px;
+	margin: 0;
+}
+
+.ourdissoir .text p {
+	font-size: 16px;
+}
+
+.ensouple {
+	top: 212px;
+	left: 180px;
+}
+
+.ourdissoir .ensouple .click {
+	top: 120px;
+}
+
+.ourdissoir .ensouple .text {
+	top: 16px;
+}
+
+.tambour {
+	top: 430px;
+	left: 270px;
+}
+
+.rot {
+	top: 330px;
+	left: 540px;
+}
+
+.cantre {
+	top: 155px;
+	left: 830px;
+}
+
+.bobine {
+	top: 290px;
+	left: 860px;
+}
+
+#archives {
+	overflow: hidden;
+}
