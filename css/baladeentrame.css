@@ -214,3 +214,12 @@ h1 img {
 #archives {
 	overflow: hidden;
 }
+
+legend {
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	padding: 20px 0;
+}
+
+
